@@ -1,0 +1,313 @@
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background: #ffffff;
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     scroll-behavior: smooth;
+}
+
+nav {
+     width: 100%;
+     position: fixed;
+     top: 0;
+     z-index: 1000;
+     overflow: hidden;
+     color: #000000;
+     background: white;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+     width: 45px;
+     height: auto;
+     margin: 5px 10px;
+     float: left;
+     border-radius: 50%;
+}
+
+ul {
+     list-style-type: none;
+     margin: 15px;
+     padding: 0;
+     float: right;
+}
+
+li {
+     float: left;
+     margin-right: 20px;
+}
+
+a {
+     display: block;
+     color: #000000;
+     text-align: left;
+     text-decoration: none;
+}
+
+.home:hover {
+     color: #002855;
+     text-decoration: underline;
+}
+
+.about:hover {
+     color: #002855;
+     text-decoration: underline;
+}
+
+.contact:hover {
+     color: #002855;
+     text-decoration: underline;
+}
+
+.container {
+     height: 100vh;
+     background-color: #052e59;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     text-align: center;
+}
+
+strong {
+     color: #007bff;
+}
+
+.scroll-down {
+     position: absolute;
+     bottom: 30px;
+     left: 50%;
+     color: white;
+}
+
+.scroll-down img {
+     width: 32px;
+     cursor: pointer;
+}
+
+h1 {
+     font-size: 5vh;
+     margin-top: 5vw;
+     position: relative;
+}
+
+.container p {
+     font-size: 2vh;
+     margin-top: -1vw;
+     position: relative;
+}
+
+.tentang-container {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 32px;
+     width: 80vw;
+     margin: 32px auto 0 auto;
+}
+
+.tentang-content h2 {
+     margin-bottom: 16px;
+     text-align: center;
+}
+
+.tentang-content p {
+     font-size: 1rem;
+     color: #222;
+     text-align: justify;
+}
+
+
+.smkn-container {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 32px;
+     width: 80vw;
+     margin: 32px auto 0 auto;
+}
+
+.smkn-content h2 {
+     margin-bottom: 16px;
+     text-align: center;
+}
+
+.smkn-content p {
+     font-size: 1rem;
+     color: #222;
+     text-align: justify;
+}
+
+.footer-container {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 32px;
+     width: 100%;
+     margin: 100px auto 0 auto;
+     color: white;
+     background: black;
+     height: 50vh;
+}
+
+.footer-content h2 {
+     margin-bottom: 16px;
+     text-align: center;
+}
+
+.footer-content a {
+     font-size: 1rem;
+     float: left;
+     color: #ffffff;
+     text-align: justify;
+     padding: 10px;
+}
+
+.footer-content a:hover {
+     color: #007bff;
+     text-decoration: underline;
+}
+
+.contact {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 10px;
+     width: 100%;
+     margin: 100px auto 0 auto;
+     color: white;
+     background: black;
+
+}
+
+/*bagian halaman praktek*/
+
+.tabel-container {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 32px;
+     width: 100%;
+     height: 100vh;
+     margin: 32px auto 0 auto;
+     background: #002855;
+     color: white;
+}
+
+.tabel-content h2 {
+     margin-bottom: 16px;
+     margin-top: 300px;
+     text-align: center;
+}
+
+table {
+     font-size: 1vw;
+     color: #ffffff;
+     width: 100%;
+     height: 100%;
+}
+
+table,
+th,
+td,
+tr {
+     border: 0.5px solid white;
+     border-collapse: collapse;
+
+}
+
+.link {
+     color: white;
+     text-decoration: underline;
+     margin-top: 10px;
+     text-align: center;
+}
+
+.no {
+     text-align: center;
+}
+
+.fo-container {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 32px;
+     width: 80vw;
+     margin: 32px auto 0 auto;
+
+}
+
+.fo-content {
+     width: 80vw;
+}
+
+.fo-content h2 {
+     margin-bottom: 16px;
+     text-align: center;
+}
+
+.fo-content p {
+     font-size: 1rem;
+     color: #222;
+     text-align: justify;
+}
+
+.alatbahan {
+     width: 30vh;
+     margin-top: 20px;
+     border-radius: 8px;
+}
+
+.alatbahan1 {
+     width: 30vh;
+     margin-top: 20px;
+     border-radius: 8px;
+}
+
+.cv-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 100%;
+     min-height: 100vh;
+     /* biar pas tengah layar */
+     margin: 0;
+     /* hilangkan jarak atas */
+     padding-top: 80px;
+     /* beri ruang untuk navbar fixed */
+     box-sizing: border-box;
+}
+
+
+
+.cv-content {
+     width: 80vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     /* 🔥 ini yang bikin gambar & teks di tengah */
+     text-align: center;
+}
+
+
+.cv-content h2 {
+     margin-bottom: 16px;
+     text-align: center;
+}
+
+.cvgambar {
+     display: block;
+     margin: 20px auto;
+     border-radius: 12px;
+     width: 50vw;
+     max-width: 600px;
+     height: auto;
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
